@@ -1,0 +1,33 @@
+.project-box {
+  display: inline-block;
+  padding: 15px 0px;
+  @extend %PrimaryFont;
+  line-height: $site-base-line-height;
+    & img {
+      margin: 0 auto;
+      max-width: 300px;
+      @media #{$breakpoint-md} {
+        max-width: 345px;
+      }
+      @media #{$breakpoint-lg} {
+        max-width: 290px;
+      }
+    }
+    & h3 {
+      margin-top: 1em;
+      margin-bottom: .5em;
+    }
+    & p {
+      @extend %SecondaryFont;
+      text-align: center;
+      max-width: 90%;
+      margin: 0 auto;
+    }
+  @media #{$breakpoint-md} {
+    width: 48%;
+    margin: 10px 5px;
+  }
+  @media #{$breakpoint-lg} {
+    width: 30%;
+  }
+}

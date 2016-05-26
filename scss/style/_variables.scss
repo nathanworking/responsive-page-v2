@@ -1,0 +1,34 @@
+// Document
+  $breakpoint-md: '(min-width: 768px)';
+  $breakpoint-lg: '(min-width: 1020px)';
+
+// Base Palette
+  $site-base-light-color: #ABCCBD; // Main BG Color
+  $site-base-primary-color: #181619; // Main Font Color
+  $site-base-secondary-color: #E4DED0; // Alt Base Color
+  $site-base-tertiary-color: #E32F21; // Hightlights
+
+    // Phone
+    $site-base-font-size: 1rem;
+    $site-base-line-height: 1.18;
+
+    // Tablet
+    $site-tablet-font-size: 1.25rem;
+
+    // Desktop
+    $site-desktop-font-size: 1.6rem;
+
+// Borders
+  $border-radius: 5px;
+  $border-style-default: 1px solid;
+
+//------------- Sections ---------- //
+
+  // Header
+    $site-header-bg: $site-base-light-color;
+    $site-header-text: $site-base-primary-color;
+
+    $site-header-title: 2em;
+
+  // Footer
+    $footer-margin-top: 20px;
