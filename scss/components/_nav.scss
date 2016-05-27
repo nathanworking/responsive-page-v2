@@ -8,7 +8,7 @@ ul.nav {
 }
 
 .nav {
-    @media #{$breakpoint-md} {
+    @include tablet {
       display: flex;
       margin-top: 0;
     }
@@ -22,21 +22,21 @@ header ul li {
   margin: 10px auto;
   max-width: 90%;
   border-radius: 100px;
-    @media #{$breakpoint-md} {
+    @include tablet {
       background-color: $site-base-light-color;
       margin: 15px;
     }
     & a {
       color: $site-base-primary-color;
       text-decoration: none;
-        @media #{$breakpoint-md} {
+        @include tablet {
           color: $site-base-primary-color;
         }
     }
 
     &:hover {
       background-color: $site-base-secondary-color;
-        @media #{$breakpoint-md} {
+        @include tablet {
           background-color: $site-base-light-color;
         }
     }
@@ -44,18 +44,18 @@ header ul li {
     & a:hover{
       color: $site-base-light-color;
       text-decoration: underline;
-        @media #{$breakpoint-md} {
+        @include tablet {
           color: $site-base-secondary-color;
         }
     }
 }
 
 nav {
-  @media #{$breakpoint-md} {
+  @include tablet {
     margin: 0 auto;
     display: inline-block;
   }
-  @media #{$breakpoint-lg} {
+  @include desktop {
     float: right;
   }
 }

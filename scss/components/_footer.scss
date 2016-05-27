@@ -23,20 +23,20 @@ footer {
       margin-top: $footer-margin-top;
       padding-right: 10px;
     }
-    @media #{$breakpoint-md} {
+    @include tablet {
       display: none;
     }
 }
 .footer-nav {
   display: none;
-    @media #{$breakpoint-md} {
+    @include tablet {
       display: block;
       float: right;
       padding-top: 20px;
     }
 }
 
-  @media #{$breakpoint-md} {
+  @include tablet {
     .footer-nav ul.nav li {
       border-right: $border-style-default $site-base-primary-color;
       padding: 0 5px;

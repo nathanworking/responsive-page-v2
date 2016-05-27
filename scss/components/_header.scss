@@ -7,7 +7,7 @@ header {
       padding: 25px 0 35px 0;
       @extend %PrimaryFont;
     }
-    @media #{$breakpoint-lg} {
+    @include desktop {
       padding: 25px 35px 0 35px;
     }
 }
@@ -15,14 +15,14 @@ header {
 .header-info {
   display: block;
 
-    @media #{$breakpoint-md} {
+    @include tablet {
       display: inline-block;
       padding: 0;
       text-align: left;
       font-size: $site-tablet-font-size;
       line-height: $site-base-line-height;
     }
-    @media #{$breakpoint-lg} {
+    @include desktop {
       margin-top: 20px;
       float: left;
       font-size: $site-desktop-font-size;
@@ -32,10 +32,10 @@ header {
 
 .main-title {
   font-size: $site-header-title;
-    @media #{$breakpoint-md} {
+    @include tablet {
       margin-top: 45px;
     }
-    @media #{$breakpoint-lg} {
+    @include desktop {
       margin-top: 20px;
       float: left;
     }
@@ -45,14 +45,14 @@ header {
   max-width: 200px;
   margin-top: 30px;
   border-radius: $border-radius;
-    @media #{$breakpoint-md} {
+    @include tablet {
       float: right;
       margin-right: 20px;
       max-width: 280px;
       margin-bottom: 10%;
       margin-top: 0px;
     }
-    @media #{$breakpoint-lg} {
+    @include desktop {
       padding: 0;
       margin-right: 0;
       max-width: 370px;

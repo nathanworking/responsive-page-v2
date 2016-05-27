@@ -2,10 +2,10 @@
   margin: 0 auto;
   text-align: center;
   max-width: 90%;
-  @media #{$breakpoint-md} {
+  @include tablet {
     max-width: 65%;
   }
-  @media #{$breakpoint-lg} {
+  @include desktop {
     max-width: 45%;
   }
 }

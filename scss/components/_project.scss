@@ -6,10 +6,10 @@
     & img {
       margin: 0 auto;
       max-width: 300px;
-      @media #{$breakpoint-md} {
+      @include tablet {
         max-width: 345px;
       }
-      @media #{$breakpoint-lg} {
+      @include desktop {
         max-width: 290px;
       }
     }
@@ -23,11 +23,11 @@
       max-width: 90%;
       margin: 0 auto;
     }
-  @media #{$breakpoint-md} {
+  @include tablet {
     width: 48%;
     margin: 10px 5px;
   }
-  @media #{$breakpoint-lg} {
+  @include desktop {
     width: 30%;
   }
 }

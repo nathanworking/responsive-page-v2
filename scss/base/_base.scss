@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Muli', Sans-Serif;
+  @extend %PrimaryFont;
   background-color: $site-base-light-color;
   color: $site-base-primary-color;
 }
